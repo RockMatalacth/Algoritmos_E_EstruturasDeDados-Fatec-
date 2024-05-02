@@ -1,0 +1,151 @@
+"""print("PROGRAMA QUE CALCULA A ÁREA DO TRIÂNGULO\n")
+base_triangulo = 2
+altura_triangulo = 4
+area_do_triangulo = base_triangulo*altura_triangulo
+print(f'A área do triângulo é {area_do_triangulo} metros')"""
+
+"""print("PROGRAMA DE CONSUMO MÉDIO DE COMBUSTÍVEL")
+distancia = int(input("Qual foi a distância percorrida pelo carro(km):"))
+combustivel = int(input("Quantos litros você encheu no tanque(lt):"))
+consumomedio = distancia/combustivel
+print(f"Seu consumo médio de combustível é: {consumomedio}")"""
+
+"""print("PROGRAMA DE MÉDIA DO ALUNO\n")
+nome_aluno = "Matheus"
+p1 = 9
+p2 = 9
+p3 = 9
+media_prova = (p1+p2+p3)/3
+print(f'{nome_aluno} sua média das provas é: {media_prova}')"""
+
+"""print("PROGRAMA DE NOME E IDADE\n")
+nome= input("Qual é o seu nome:")
+idade = int(input("Quantos anos você têm: "))
+meses = idade * 12
+dias = idade * 365
+horas = idade * 365 * 24
+
+print(f"{nome} você tem {idade}\n")
+print(f"{nome} sua idade em meses é:{meses} meses \n")
+print(f"{nome} sua idade em dias é:{dias} dias \n")
+print(f"{nome} sua idade em horas é:{horas} horas \n")"""
+
+
+"""print("PROGRAMA QUE CALCULA DADOS DE UM VENDEDOR")
+nome_do_vendedor = "Carlos"
+salario = 2000
+total_vendas = 10000
+comissao = (total_vendas*15)/100
+print(f"{nome_do_vendedor} sua comissão é de: {comissao} reais. \n Então, seu salário nesse mês será de: {salario+comissao} reais")"""
+
+"""print("TEMPERATURA")
+celsius = 38
+Fahrenheit = 9*celsius/ 5 + 32
+print(Fahrenheit,"Fahrenheit","e",celsius,"Celsius")"""
+
+"""print("CONVERSÃO DE MOEDA")
+dolar = 5.09
+euro = 5.46
+libra = 6.39
+dinheiro =  float(input("Quantos reais você tem:"))
+print(f"Seu dinheiro em dolar é:{dinheiro/dolar} dólar(es)")
+print(f"Seu dinheiro em euro é: {dinheiro/euro} euro(s)")
+print(f"Seu dinheiro em libra é: {dinheiro/libra} libra(s)")"""
+
+
+"""print("PROGRAMA DE VALOR DE RENDIMENTO")
+taxa_juros = 0.007
+valor_depositado = float(input("Digite o valor depositado: R$ "))
+valor_rendimento = valor_depositado * (1 + taxa_juros)
+print(f"Valor com rendimento após um mês: R$ {valor_rendimento}")"""
+
+
+"""print("PROGRAMA DE VALOR DE ACRÉSCIMO")
+preco_custo = float(input("Digite o preço de custo do produto: R$ "))
+percentual_acrescimo = float(input("Digite o percentual de acréscimo (%): "))
+valor_venda = preco_custo * (1 + percentual_acrescimo / 100)
+print(f"Valor de venda: R$ {valor_venda}")"""
+
+
+"""print("PROGRAMA DE TRIÂNGULOS")
+a = float(input("Digite o valor do lado A: "))
+b = float(input("Digite o valor do lado B: "))
+c = float(input("Digite o valor do lado C: "))
+if a + b > c and a + c > b and b + c > a:
+    if a == b == c:
+        print("Triângulo Equilátero")
+    elif a == b or a == c or b == c:
+        print("Triângulo Isósceles")
+    else:
+        print("Triângulo Escaleno")
+else:
+    print("Não é um triângulo")"""
+
+
+"""print("PROGRAMA QUE CALCULA O LADO DE UM POLÍGONO REGULAR E A MEDIDA DO LADO")
+num_lados = int(input("Digite o número de lados do polígono: "))
+medida_lado = float(input("Digite a medida do lado em centímetros: "))
+if num_lados == 3:
+    tipo_poligono = "TRIÂNGULO"
+    area = (medida_lado ** 2 * (3 ** 0.5)) / 4
+    print(f"{tipo_poligono} - Área: {area} cm²")
+elif num_lados == 4:
+    tipo_poligono = "QUADRADO"
+    area = medida_lado ** 2
+    print(f"{tipo_poligono} - Área: {area} cm²")
+elif num_lados == 5:
+    tipo_poligono = "PENTÁGONO"
+    print(tipo_poligono)
+elif num_lados < 3:
+    print("NÃO É UM POLÍGONO")
+else:
+    print("POLÍGONO NÃO IDENTIFICADO")"""
+
+
+"""print("PROGRAMA QUE CALCULA O IMC")
+altura = float(input("Digite a altura em metros (ex: 1.75): "))
+peso = float(input("Digite o peso em quilogramas: "))
+imc = peso / (altura ** 2)
+if imc < 18.5:
+    print("MAGRO")
+elif 18.5 <= imc < 25:
+    print("NORMAL!")
+elif 25 <= imc < 30:
+    print("SOBREPESO")
+elif 30 <= imc < 40:
+    print("OBESO!")
+else:
+    print("OBESO MÓRBIDO")"""
+
+
+"""print("PROGRAMA QUE CALCULA A IDADE DO NADADOR")
+idade = int(input("Digite a idade do nadador: "))
+if 5 <= idade <= 7:
+    print("Infantil A")
+elif 8 <= idade <= 10:
+    print("Infantil B")
+elif 11 <= idade <= 13:
+    print("Juvenil A")
+elif 14 <= idade <= 17:
+    print("Juvenil B")
+elif 18 <= idade <= 25:
+    print("Sênior")
+else:
+    print("Idade fora da faixa etária")"""
+
+
+"""print("PROGRAMA QUE CALCULA A MÉDIA DAS NOTAS E VERIFICA A SITUAÇÃO DELE")
+nome = input("Digite o nome do aluno: ")
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
+media = (nota1 + nota2 + nota3) / 3
+if media >= 7:
+    mencao = "Aprovado"
+elif media <= 5:
+    mencao = "Reprovado"
+else:
+    mencao = "Recuperação"
+print("\nNome do Aluno:", nome)
+print("Média das Notas:", media)
+print("Menção:", mencao)"""
